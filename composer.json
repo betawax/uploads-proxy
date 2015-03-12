@@ -1,6 +1,6 @@
 {
     "name": "betawax/uploads-proxy",
-    "description": "Proxy uploads from the production site.",
+    "description": "Proxy WordPress uploads from the production site.",
     "keywords": ["wordpress", "uploads", "proxy"],
     "type": "wordpress-plugin",
     "license": "MIT",
