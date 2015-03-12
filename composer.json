@@ -1,0 +1,17 @@
+{
+    "name": "betawax/uploads-proxy",
+    "description": "Proxy uploads from the production site.",
+    "keywords": ["wordpress", "uploads", "proxy"],
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Holger Weis",
+            "email": "holger.weis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0"
+    }
+}
