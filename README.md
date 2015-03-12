@@ -23,21 +23,21 @@ You can simply clear your local uploads directory at any time to restart the who
 
 ## Usage
 
-### 1. Install and activate the plugin
+**1. Install and activate the plugin**
 
-### 2. Add a constant to your environment configuration(s)
+**2. Add a constant to your environment configuration(s)**
 
 	define('UP_SITEURL', getenv('UP_SITEURL'));
 
 You will want to add this to your `config/environments/development.php` and `config/environments/staging.php` files.
 
-### 3. Define the URL to your production site
+**3. Define the URL to your production site**
 
 Add the following line to your local `.env` file:
 
 	UP_SITEURL=http://example.com
 
-### 4. Profit?
+**4. Profit?**
 
 Open your local environment in your browser and give it some time to download the files on the first request.
 
