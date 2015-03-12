@@ -25,6 +25,8 @@ You can simply clear your local uploads directory at any time to restart the who
 
 **1. Install and activate the plugin**
 
+	composer require betawax/uploads-proxy
+
 **2. Add a constant to your environment configuration(s)**
 
 	define('UP_SITEURL', getenv('UP_SITEURL'));
