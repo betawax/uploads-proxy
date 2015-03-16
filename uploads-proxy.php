@@ -4,13 +4,13 @@
  * Plugin Name: Uploads Proxy
  * Plugin URI: https://github.com/betawax/uploads-proxy
  * Description: Proxy uploads from the production site.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Holger Weis
  * Author URI: http://betawax.io
  * License: MIT
  */
 
-require ABSPATH.'wp-admin/includes/file.php';
+require_once ABSPATH.'wp-admin/includes/file.php';
 
 /**
  * Get uploads from the production site and store them
