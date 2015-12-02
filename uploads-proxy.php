@@ -49,7 +49,7 @@ function uploads_proxy()
 			// Make sure the upload directory exists
 			wp_mkdir_p(pathinfo($absoluteUploadFile)['dirname']);
 			
-			if ($wp_filesystem->put_contents($absoluteUploadFile, $response['body'], FS_CHMOD_FILE))
+			if ($wp_filesystem->put_contents(urldecode($absoluteUploadFile), $response['body'], FS_CHMOD_FILE))
 			{
 				// Redirect to the stored upload
 				wp_redirect($requestPath);
